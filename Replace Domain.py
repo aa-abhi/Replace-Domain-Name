@@ -5,7 +5,7 @@ def replace_domain(email,old_domain,new_domain):
         return new_email
     return email
 
-email= "abhi07@att.com"
+email= "lily@att.com"
 old_domain = "att.com"
 new_domain = "ac.in"
 print(replace_domain(email,old_domain,new_domain))
