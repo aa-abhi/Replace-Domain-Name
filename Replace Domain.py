@@ -4,7 +4,7 @@ def replace_domain(email,old_domain,new_domain):
         new_email = email[:index]+ "@" + new_domain
         return new_email
     return email
-
+#take inputs
 email= "lily@att.com"
 old_domain = "att.com"
 new_domain = "ac.in"
